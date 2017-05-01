@@ -3,10 +3,14 @@
 require 'vendor/autoload.php';
 
 
-use Sylius\Component\Taxation\Calculator\DefaultCalculator;
+use Sylius\Component\Taxation\Calculator\DefaultCalculator as SyliusDefaultCalculator;
 use Sylius\Component\Taxation\Model\TaxRate;
 
-$calculator = new DefaultCalculator();
+$myCal = new DefaultCalculator();
+
+$myCal->sayHiToPramod();
+
+$calculator = new SyliusDefaultCalculator();
 
 $taxRate = new TaxRate();
 $taxRate->setAmount(0.23);

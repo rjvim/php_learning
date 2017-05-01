@@ -13,7 +13,8 @@
 	    "files": [
 	        "file2.php",
 	        "file3.php",
-	        "SomeExample.php"
+	        "SomeExample.php",
+	        "DefaultCalculator.php"
 	    ]
 	}
 }
